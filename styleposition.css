@@ -1,0 +1,30 @@
+/* Применить границу ко всем элементам <div> */
+ div {
+    border: 1px solid gray;
+    position: relative;
+}
+
+ /* Установить произвольные значения ширины и положения */
+ #A { 
+    width: 100px; 
+    top: 25px; 
+    left: l00px;
+}
+ #B {
+    width: 215px;
+    top: 50px;
+}
+ #C {
+    width: 250px;
+    top: 50px;
+    left:25px;
+    }
+ #D {
+    width: 225px;
+    top: 65px;
+}
+ #E {
+    width: 200px;
+    top: 70px;
+    left:50px;
+}
