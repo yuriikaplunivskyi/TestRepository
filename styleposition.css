@@ -28,3 +28,7 @@
     top: 70px;
     left:50px;
 }
+
+.ukrpost {
+   background-image: url(/location-dot-solid.svg) no-repeat cover;
+}

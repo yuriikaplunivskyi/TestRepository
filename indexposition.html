@@ -6,13 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styleposition.css">
+    <style type="text/css">
+        .parent_div{
+            border: 3px dashed red;
+            height: 500px;
+        }
+        .first_div {
+            background-color:yellow;
+            border: 5px solid blueviolet;
+            height: 25vh;
+            width: 25vh;
+            position: relative;
+            top: 75px;
+            left: 50px;
+        }
+    </style>
+
 </head>
 <body>
+    <div class="parent_div">
+        <div class="first_div">Hello Wolrd!</div>
+    </div>
     <section>
         <h1>2e2e2</h1>
-        <h2>fdfsfdf</h2>
     </section>
-   
+    <svg width="500" height="500">
+        <circle cx="250" cy="250" r="150" fill="purple" stroke="black" stroke-width="14"></circle>
+        <polygon points="200,10 250,190 160,210" fill="green" stroke="black" stroke-width="14"></polygon>
+    </svg>
+
+    <img class="iconSVG" src="location-dot-solid.svg" alt="">
     <script href="script.js"></script>
 </body>
 </html>
